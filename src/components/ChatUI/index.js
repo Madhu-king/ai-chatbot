@@ -21,7 +21,7 @@ function ChatUI() {
 
     setMessage("");
 
-    try {
+    /*try {
       const res = await fetch(
         `http://localhost:5000/search?q=${value}`
       );
@@ -45,7 +45,7 @@ function ChatUI() {
     } catch (err) {
       console.log(err);
     }
-  };
+  };*/}
 
   return (
     <div className="main-container">
