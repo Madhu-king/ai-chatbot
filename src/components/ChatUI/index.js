@@ -6,7 +6,8 @@ function ChatUI() {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
 
-   const [color, setColor] = useState("#ffffff");
+  
+   const color="#ffffff";
 
   const handleSend = async (value) => {
     if (!value.trim()) return;
