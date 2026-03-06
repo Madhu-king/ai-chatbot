@@ -3,20 +3,30 @@
   height: 100vh;
   background: skyblue;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+ 
+ 
+  
+ 
+ 
+  
+
 }
 
 /* CHAT CARD */
 .chat-card {
   width: 400px;
   height: 550px;
-  background: purple;
+  background: orchid;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
   padding: 15px;
   color: white;
+   margin: 20px;
+  
+  
 }
 
 /* TITLE */
@@ -46,7 +56,7 @@
 /* ✅ BOT MESSAGE (LEFT) */
 .msg.bot {
   align-self: flex-start;
-  background: #374151;
+  background: darkgreen;
 }
 
 /* ✅ USER MESSAGE (RIGHT) */
@@ -81,10 +91,19 @@
   align-self: flex-start;
   margin-left: 13px;
   margin-top: 20px;
+
   
 }
 .dots{
    align-self: flex-start;
   margin-left: 13px;
   margin-top: 20px;
+  
+}
+.loader-style{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  color: white;
+
 }
